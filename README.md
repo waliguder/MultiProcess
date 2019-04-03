@@ -6,16 +6,21 @@ python 多进程池+多线程执行指定任务
 这里提供一个简易的进程+多线程的项目框架
 
 首先，初始化一个进程池，可指定进程数量
-
+=
+```
 # 初始化进程池的数量为2
 mtpool = InitProcessing.MultiProcessPool(2)
+```
 
 其次，定义一个任务列表，可自定义传入参数
-
+=
+```
  # 任务列表 【 任务模块，任务文件】
  task = [['task1', 'a'], ['task2', 'b']]
- 
+``` 
+
 之后就可启动进程池
+```
    for idx in task:
        mtpool.run(wokers, idx)
 
@@ -45,3 +50,4 @@ def wokers(msg):
     threads[0].join()
     print("%s end" % msg[0])
     return "done %s" % msg[1]
+```
