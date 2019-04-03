@@ -7,20 +7,20 @@ python 多进程池+多线程执行指定任务
 
 首先，初始化一个进程池，可指定进程数量
 =
-```
+```python
 # 初始化进程池的数量为2
 mtpool = InitProcessing.MultiProcessPool(2)
 ```
 
 其次，定义一个任务列表，可自定义传入参数
 =
-```
+```python
  # 任务列表 【 任务模块，任务文件】
  task = [['task1', 'a'], ['task2', 'b']]
 ``` 
 
 之后就可启动进程池
-```
+```python
    for idx in task:
        mtpool.run(wokers, idx)
 
