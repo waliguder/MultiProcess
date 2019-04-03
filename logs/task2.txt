@@ -1,0 +1,10 @@
+获取到队列中的消息：task2.txt put值为0--task2 
+获取到队列中的消息：task2.txt put值为1--task2 
+获取到队列中的消息：task2.txt put值为2--task2 
+获取到队列中的消息：task2.txt put值为3--task2 
+获取到队列中的消息：task2.txt put值为4--task2 
+获取到队列中的消息：task2.txt put值为5--task2 
+获取到队列中的消息：task2.txt put值为6--task2 
+获取到队列中的消息：task2.txt put值为7--task2 
+获取到队列中的消息：task2.txt put值为8--task2 
+获取到队列中的消息：task2.txt put值为9--task2 
